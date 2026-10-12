@@ -29,6 +29,7 @@ code{background:#eef1ee;padding:1px 6px;border-radius:6px}
 <h2>What is stored on your device, and for how long</h2>
 <ul>
 <li>The private working copy and your edits are kept in the app&#x27;s private storage so you can continue later. They are deleted when you tap Done or confirm deletion in the app. On the next launch after 24 hours, the app marks unfinished work as expired and asks you to delete it; for a photo taken in SpotShield, it also offers to save the original first. Files remain in private storage until you confirm deletion. There is no background deletion timer.</li>
+<li>If SpotShield was closed unexpectedly (for example, the phone restarted) and finds more unfinished photos than it can continue with, it keeps them in private storage and asks you whether to save them to your gallery or delete them. They stay until you choose.</li>
 <li>Protected copies are saved to your gallery (Pictures/SpotShield) only when you choose Save. You can delete them like any other photo.</li>
 <li>Photos taken with the SpotShield camera stay inside the app until you create a protected copy. Saving the original as well is off by default.</li>
 <li>To let the receiving app finish reading, SpotShield keeps a separate protected copy prepared for sharing in private storage for at least 24 hours, then deletes it on a later app launch. This copy survives Done and contains no original photo. There is no background deletion timer.</li>
@@ -44,7 +45,7 @@ code{background:#eef1ee;padding:1px 6px;border-radius:6px}
 </ul>
 <p>The app does not request internet access, contacts, the microphone or your device&#x27;s location.</p>
 <h2>Third-party components</h2>
-<p>SpotShield uses on-device libraries and models, including Google ML Kit (text recognition and barcode scanning, bundled in the app), ONNX Runtime and open-source image models. They run inside the app on your device. Because the app has no internet permission, these components cannot send data off your device.</p>
+<p>SpotShield uses on-device libraries and models, including Google ML Kit (text recognition and barcode scanning, bundled in the app), ONNX Runtime and open-source image models. They run inside the app on your device. Because the app has no internet permission, these components cannot send data off your device. After you save or share a few protected copies, the app may ask Google Play to show its rating window; Google Play shows it and handles your rating, and SpotShield doesn't see it.</p>
 <h2>Children</h2>
 <p>SpotShield is not directed at children under 13.</p>
 <h2>Changes</h2>
@@ -70,6 +71,7 @@ code{background:#eef1ee;padding:1px 6px;border-radius:6px}
 <h2>Kaj se shrani na napravi in kako dolgo</h2>
 <ul>
 <li>Zasebna delovna kopija in tvoji popravki se hranijo v zasebnem prostoru aplikacije, da lahko nadaljuješ pozneje. Izbrišejo se, ko tapneš Končano ali potrdiš izbris v aplikaciji. Ob naslednjem zagonu po 24 urah aplikacija označi nedokončano delo kot poteklo in te pozove k izbrisu; pri fotografiji, posneti v SpotShieldu, ponudi tudi shranjevanje izvirnika pred izbrisom. Datoteke ostanejo v zasebnem prostoru, dokler ne potrdiš izbrisa. V ozadju ni časovnika za samodejni izbris.</li>
+<li>Če se je SpotShield nepričakovano zaprl (na primer ob ponovnem zagonu naprave) in najde več nedokončanih fotografij, kot jih lahko nadaljuje, jih hrani v zasebnem prostoru aplikacije in te vpraša, ali jih shraniš v galerijo ali izbrišeš. Ostanejo tam, dokler se ne odločiš.</li>
 <li>Zaščitene kopije se shranijo v galerijo (Pictures/SpotShield) samo, če izbereš Shrani. Izbrišeš jih lahko kot vsako drugo fotografijo.</li>
 <li>Fotografije, posnete s kamero SpotShield, ostanejo v aplikaciji, dokler ne ustvariš zaščitene kopije. Shranjevanje izvirnika je privzeto izklopljeno.</li>
 <li>Da lahko prejemna aplikacija prebere fotografijo do konca, SpotShield ločeno zaščiteno kopijo, pripravljeno za deljenje, hrani v zasebnem prostoru vsaj 24 ur, nato jo izbriše ob poznejšem zagonu aplikacije. Ta kopija ostane po izbiri Končano in ne vsebuje izvirne fotografije. V ozadju ni časovnika za samodejni izbris.</li>
@@ -85,7 +87,7 @@ code{background:#eef1ee;padding:1px 6px;border-radius:6px}
 </ul>
 <p>Aplikacija ne zahteva dostopa do interneta, stikov, mikrofona ali lokacije naprave.</p>
 <h2>Komponente tretjih oseb</h2>
-<p>SpotShield uporablja knjižnice in modele, ki tečejo na napravi, med njimi Google ML Kit (prepoznavanje besedila in branje kod, vgrajeno v aplikacijo), ONNX Runtime in odprtokodne modele za slike. Tečejo v aplikaciji na tvoji napravi. Ker aplikacija nima dovoljenja za internet, te komponente ne morejo poslati podatkov z naprave.</p>
+<p>SpotShield uporablja knjižnice in modele, ki tečejo na napravi, med njimi Google ML Kit (prepoznavanje besedila in branje kod, vgrajeno v aplikacijo), ONNX Runtime in odprtokodne modele za slike. Tečejo v aplikaciji na tvoji napravi. Ker aplikacija nima dovoljenja za internet, te komponente ne morejo poslati podatkov z naprave. Ko shraniš ali deliš nekaj zaščitenih kopij, lahko aplikacija Google Play prosi, naj prikaže okno za oceno; okno prikaže in oceno obdela Google Play, SpotShield je ne vidi.</p>
 <h2>Otroci</h2>
 <p>SpotShield ni namenjen otrokom, mlajšim od 13 let.</p>
 <h2>Spremembe</h2>
